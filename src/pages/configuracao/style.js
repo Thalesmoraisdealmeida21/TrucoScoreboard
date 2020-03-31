@@ -35,12 +35,12 @@ export default StyleSheet.create({
         color: '#FFF',
         display: "flex",
         flexDirection: 'row',
-        marginLeft: 10
+        marginLeft: 8
     },
 
     textLabel: {
         color: "#FFF",
-        fontSize: 30
+        fontSize: 28
     },
 
     textInput: {
