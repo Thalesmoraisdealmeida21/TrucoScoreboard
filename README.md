@@ -73,7 +73,7 @@
 
 <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">
 
-Este projeto é licenciado por uma licença MIT - veja a licença [LICENSE](LICENSE) para mais detalhes.
+Este projeto é licenciado por uma licença MIT - veja a licença [LICENSE](https://github.com/Thalesmoraisdealmeida21/TrucoScoreboard/blob/master/LICENCE) para mais detalhes.
 
 ---
 
