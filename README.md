@@ -4,9 +4,7 @@ Este é um aplicativo para marcar pontos do jogo Truco Gauderio, ele consiste em
 
 
 
-# Screenshot
-![Screenshot 1]
-(screenshots/scrennshot-1.jpg)
+
 
 # Tecnologias
 
@@ -15,16 +13,16 @@ AsyncStorage
 
 
 <h1 align="center">
-  <a href="https://github.com/lucasmontano/openweathermap-react-native">
-    <img alt="Open Weather Logo" src="./screenshots/scrennshot-1.jpg" width="350px" />
+  <a href="https://github.com/Thalesmoraisdealmeida21/TrucoScoreboard/">
+    <img alt="Truco Scoreboard Logo" src="./assets/icon.jpg" />
   </a>
 </h1>
 
 <h2 align="center">
-  React Native OpenWeather App
+  Truco Scoreboard
 </h2>
 
-<p align="center">OpenWeather is a project created by Lucas Montano initially as an One-Day-Challange, then he decided to create an Open Source project to help his followers and everyone getting started with Open Source world world building a basic but very strategic application!</p>
+<p align="center">Truco Scoreboard consiste em um aplicativo para marcar pontuações do jogo de cartas chamado truco. Sendo possivel também configurar a pontuação necessária para vitoria</p>
 
 <p align="center">
   <a href="https://github.com/lucasmontano">
