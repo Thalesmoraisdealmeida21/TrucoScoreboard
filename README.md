@@ -24,7 +24,7 @@
 
 ---
 
-## Table of Contents
+## Sumario
 
 <ul>
   <li><a href="#-ponto-de-partida">Ponto de Partida</a></li>
@@ -49,8 +49,6 @@
 
 ## 📋 Funcionalidades do Aplicativo
 
-### Documentation
-
 - [ ] Marcador de pontos de uma partida de truco gaúderio
 - [ ] Configurar pontos necessário para a vitoria
 
@@ -67,7 +65,7 @@
 - Comunicação HTTP
   - [Axios](https://github.com/axios/axios) - Cliente Http baseado em node.js
 - Banco de Dados
-   - [AsyncStorage](https://github.com/react-native-community/async-storage) - Prove um simples banco de dados local (offline) de chave e valor que permite gravar informações no mesmo.
+   - [AsyncStorage](https://github.com/react-native-community/async-storage) - Provém um simples banco de dados local (offline) de chave e valor que permite gravar informações no mesmo.
 
 
 
