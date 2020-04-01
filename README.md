@@ -13,14 +13,12 @@ AsyncStorage
 
 
 <h1 align="center">
-  <a href="https://github.com/Thalesmoraisdealmeida21/TrucoScoreboard/">
-    <img alt="Truco Scoreboard Logo" src="./assets/icon.jpg" />
-  </a>
+    <img alt="" src="./assets/icon.png" />
+
 </h1>
 
-<h2 align="center">
-  Truco Scoreboard
-</h2>
+
+
 
 <p align="center">Truco Scoreboard consiste em um aplicativo para marcar pontuações do jogo de cartas chamado truco. Sendo possivel também configurar a pontuação necessária para vitoria</p>
 
