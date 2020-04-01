@@ -20,8 +20,9 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">
 </p>
 
-<img src="./screenshots/screenshot-1.png" width="200" height="400" /> <img src="./readme/bookmarked_location.png" width="200" height="400" />
-<img src="./screenshots/screenshot-2.png" width="200" height="400" /> <img src="./screenshots/screenshot-3.png" width="200" height="400" />
+<img src="./screenshots/screenshot-1.png" width="200" height="400" />
+<img src="./screenshots/screenshot-2.png" width="200" height="400" /> 
+<img src="./screenshots/screenshot-3.png" width="200" height="400" />
 
 ---
 
