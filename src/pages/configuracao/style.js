@@ -7,11 +7,13 @@ export default StyleSheet.create({
         backgroundColor: "#345346",
         height: 1000,
         display: "flex",
-        flexDirection: "column"
+        flexDirection: "column",
+        alignItems: "center"
+        
 
     },
     header: {
-        marginLeft: 100,
+        marginLeft: 0,
         marginTop: 50,
         fontSize: 30,
         color: "#FFF",
@@ -20,14 +22,19 @@ export default StyleSheet.create({
 
     btnBackContainer: {
         position: "absolute",
-        marginLeft: 10,
         marginTop: 65,
         height: 200,
         color: '#FFF'
     },
     btnBack: {
-        color: '#FFF',
-        fontSize: 400,
+        backgroundColor: '#296F4D',
+        marginTop: 10,
+        textAlign: "center",
+        borderRadius: 50,
+        textAlign: "center",
+        width: 200
+        
+  
     },
 
     input: {
@@ -40,12 +47,12 @@ export default StyleSheet.create({
 
     textLabel: {
         color: "#FFF",
-        fontSize: 28
+        fontSize: 25
     },
 
     textInput: {
         backgroundColor: '#296F4D',
-        marginTop: 10,
+        marginTop: 5,
         borderRadius:  10,
         height: 30,
         textAlign: "center",
@@ -61,8 +68,8 @@ export default StyleSheet.create({
     },
     btnSave: {
         backgroundColor: '#296F4D',
-        marginTop: 350,
-        marginLeft: 100,
+        marginTop: 100,
+        textAlign: "center",
         borderRadius: 50,
         textAlign: "center",
         width: 200

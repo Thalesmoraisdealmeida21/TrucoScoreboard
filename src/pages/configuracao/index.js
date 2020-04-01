@@ -10,12 +10,14 @@ import styles from './style'
 export default function(){
     const navigator = useNavigation();
     const route = useRoute()
-    const configuracoes = route.params.pontos;
+    const configuracoes = route.params.pontos.toString();
     const [points, setPoints] = useState(configuracoes);
+
+    
  
   
 
-
+    
     
   
     
@@ -25,9 +27,10 @@ export default function(){
 
 
     async function saveConfig(){
-
-        try{
-            await AsyncStorage.setItem('PointsToVictory', points);
+    
+    try{
+            await AsyncStorage.setItem('PointsToVictory', points.points);
+            
             Alert.alert(
                 'Sucesso !!!',
                 'Configuração salva com sucesso'
@@ -44,36 +47,45 @@ export default function(){
         const value = await AsyncStorage.getItem('PointsToVictory');
                     if (value !== null) {
             // We have data!!
-            console.log(value);
+            console.log("valor gravado" + value);
             }
     }
 
     return (
+
+   
+        
+
+     
         <View style={styles.container}> 
-            <Text style={styles.header}> Configuração</Text>
-            <TouchableOpacity  onPress={navigateBack} style={styles.btnBackContainer}>
-            <Text  style={styles.btnBack}>
-                <FontAwesome5 name="arrow-left">
-                </FontAwesome5>
-            </Text>
+    
        
-            </TouchableOpacity>
-           
+            <Text style={styles.header}> Configuração</Text>
+            
+     
+          
+        
 
             <View style={styles.input}>
+
                 <Text style={styles.textLabel}>Jogo acaba em </Text> 
                 <TextInput 
-                onChangeText={text =>  setPoints(text)}
                 value={points}
+                keyboardType={"numeric"}
+                onChangeText={points =>  setPoints({points})}             
                 style={styles.textInput}>
-                
+                             
                 </TextInput>
+           
                 <Text style={styles.textLabel}> pontos</Text>
             </View>
 
 
             <TouchableOpacity onPress={saveConfig} style={styles.btnSave}>
                 <Text style={styles.btnSaveText}>Salvar</Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={navigateBack} style={styles.btnBack}>
+                <Text style={styles.btnSaveText}>Voltar</Text>
             </TouchableOpacity>
         </View>
     )

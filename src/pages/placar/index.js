@@ -15,11 +15,18 @@ export default function(){
 
 
 
+
+
    async function navigateToConfig(){
        
-        const pontos = await AsyncStorage.getItem('PointsToVictory');
-        console.log("pontos: " + pontos)
+        var pontos = await AsyncStorage.getItem('PointsToVictory');
+        if((pontos == null) || (pontos <= 0)){
+            pontos = 24;
+        }
+       
+        console.log("Pontuation: " + pontos)
         navigator.navigate('Configuracao', { pontos })
+
 
            
     }
@@ -39,7 +46,10 @@ export default function(){
     }
 
         async function sumPlayerEles() {
-            let pontos = await AsyncStorage.getItem('PointsToVictory');
+            let pontos = await AsyncStorage.getItem('PointsToVictory')
+            if((pontos == null) || (pontos <= 0)){
+                pontos = 24;
+            }
             if(ElesPoints >= pontos - 1 ){
                 setElesPoints(ElesPoints + 1)
                 Alert.alert(
@@ -72,6 +82,9 @@ export default function(){
 
         async function sumPlayerNos() {
             let pontos = await AsyncStorage.getItem('PointsToVictory');
+            if((pontos == null) || (pontos <= 0)){
+                pontos = 24;
+            }
             if(NosPoints >= pontos - 1 ){
                 setNosPoints(NosPoints + 1)
                 Alert.alert(
@@ -106,7 +119,7 @@ export default function(){
     return(
         <View style={styles.container}>
 
-
+      
                 <View style={styles.headersPlacar}>
 
                     <Text style={styles.titleHaderNos}>Nós</Text>
@@ -157,12 +170,14 @@ export default function(){
                 </View>
 
                 <View style={styles.configContainer}>
+
                     <TouchableOpacity onPress={resetGame}>
                         <Text  style={styles.btnResetContainer}>
                             <FontAwesome5 style={styles.btnReset} name="sync"></FontAwesome5>
 
                         </Text>
                     </TouchableOpacity>
+
                     <TouchableOpacity onPress={navigateToConfig}>
                         <Text  style={styles.btnConfigContainer}>
                             <FontAwesome5 style={styles.btnConfig} name="cog"></FontAwesome5>

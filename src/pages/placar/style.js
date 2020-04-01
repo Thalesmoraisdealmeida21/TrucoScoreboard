@@ -7,6 +7,7 @@ export default StyleSheet.create({
     container: {
         backgroundColor: '#345346',
         height: 1000,
+        alignItems: "center"
     },
 
     headersPlacar: {
@@ -15,9 +16,6 @@ export default StyleSheet.create({
         flexDirection: "row",
         borderBottomWidth: 1,
         borderColor: '#FFF'
-      
-        
-
     },
 
     titleHaderEles: {
@@ -25,7 +23,7 @@ export default StyleSheet.create({
         color: "#FFF",
         fontSize: 40,
         fontWeight: "bold",
-        marginLeft: 150
+        marginLeft: 50
    
         
     },
@@ -36,87 +34,82 @@ export default StyleSheet.create({
         color: "#FFF",
         fontSize: 40,
         fontWeight: "bold",
-        marginLeft: 50
+        marginLeft: 50,
+        marginLeft: 0 
     },
 
     lineVertical: {
         width: 5,
-        height: 400,
+        height: 280,
         marginTop: 0,
         backgroundColor: "#FFFF",
-        marginLeft: 20
-    },
+        
+        marginLeft: 10,
+        marginRight: 10,
+         
+      },
 
     placar: {
         marginTop: 50,
         display: "flex",
         flexDirection: "row",
+        
+        
      
     },
 
     playerNos: {
-        fontSize: 100,
+        fontSize: 60,
         fontWeight: "bold",
         color: "#FFF",
-        marginLeft: 15
+        textAlign: "center"
     },
 
     playerEles: {
-        fontSize: 100,
+        fontSize: 60,
         fontWeight: "bold",
         color: "#FFF",
-        marginLeft: 25
+        
     },
 
     buttonsContainer: {
-        marginTop: 200,
+        marginTop: 80,
         display: "flex",
         flexDirection: "row",
-        marginLeft: 15
+        marginLeft: 0
     },
 
     btnText: {
         fontSize: 30,
         backgroundColor: "#3B6F53",
-        width: 80,
+        width: 60,
         height: 50,
+
         textAlign: "center",
         textAlignVertical: "center",
-        marginBottom: 50,
+       
         borderRadius: 10,
         color: "#fff",
         
     },
 
-    explained: {
-        fontSize:  15,
-        textAlign: "center",
-        marginTop: 32,
-        color: "#FFF"
-    },
 
     configContainer: {
         display: "flex",
         flexDirection: "row",
-        marginLeft: 140,
-        marginTop: 30
+     
     },
 
     btnResetContainer: {
-        color: "#fff",
-        
+        color: "#fff",  
         backgroundColor: '#3B6F53',
-        borderRadius: 10,
-        marginLeft: 0,
-      
     },
 
     btnConfigContainer: {
         color: "#fff",
-        
         backgroundColor: '#3B6F53',
         borderRadius: 10,
-        marginLeft: 30,
+        marginLeft: 10,
     },
 
     btnReset: {
@@ -136,14 +129,14 @@ export default StyleSheet.create({
     btnText2: {
         fontSize: 30,
         backgroundColor: "#3B6F53",
-        width: 80,
+        width: 60,
         height: 50,
         textAlign: "center",
         textAlignVertical: "center",
         marginBottom: 50,
         borderRadius: 10,
         color: "#fff",
-        marginLeft: 5
+        marginRight: 5
     },
 
     playerNosContainer: {
