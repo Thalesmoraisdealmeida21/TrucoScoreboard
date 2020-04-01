@@ -17,6 +17,8 @@ AsyncStorage
 
 </h1>
 
+<h1>Truco Scoreboard</h1>
+
 
 
 
