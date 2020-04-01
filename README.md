@@ -17,7 +17,7 @@ AsyncStorage
 
 </h1>
 
-<h1>Truco Scoreboard</h1>
+<h1 align="center">Truco Scoreboard</h1>
 
 
 
@@ -25,8 +25,8 @@ AsyncStorage
 <p align="center">Truco Scoreboard consiste em um aplicativo para marcar pontuações do jogo de cartas chamado truco. Sendo possivel também configurar a pontuação necessária para vitoria</p>
 
 <p align="center">
-  <a href="https://github.com/lucasmontano">
-    <img alt="Made by Lucas Montano" src="https://img.shields.io/badge/made%20by-Lucas%20Montano-brightgreen">
+  <a href="https://github.com/Thalesmoraisdealmeida21">
+    <img alt="Made by Thales Morais" src="https://img.shields.io/badge/made%20by-Lucas%20Montano-brightgreen">
   </a>
 
   <img alt="Last Commit" src="https://img.shields.io/github/last-commit/lucasmontano/openweathermap-reactnative">
