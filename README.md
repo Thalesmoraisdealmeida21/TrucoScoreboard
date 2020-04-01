@@ -26,12 +26,10 @@ AsyncStorage
 
 <p align="center">
   <a href="https://github.com/Thalesmoraisdealmeida21">
-    <img alt="Made by Thales Morais" src="https://img.shields.io/badge/made%20by-Lucas%20Montano-brightgreen">
+    <img alt="Made by Thales Morais" src="https://img.shields.io/badge/Feito%20por-Thales%20Morais-brightgreen">
   </a>
 
-  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/lucasmontano/openweathermap-reactnative">
-
-  <img alt="Contributors" src="https://img.shields.io/github/contributors/lucasmontano/openweathermap-reactnative">
+  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/Thalesmoraisdealmeida21/TrucoScoreboard/master?style=plastic">
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">
 </p>
